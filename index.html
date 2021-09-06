@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -26,7 +26,7 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="lead">9</p>
     </header>
       <!-- Timeblocks go here -->
       <div class="container text-right plannerDiv">
@@ -34,29 +34,90 @@
             <div class="input-container input-group col-1">
                 <p class="border-bottom">9am</p>
             </div>
-            <div class="input-group  col-10 form-group">
-                <textarea id=textarea9AM class="form-control custom-control textborder" rows="2" style="resize:none"
-                    name="9"></textarea>
-                <button class="col-1 btn"> <span style="font-size: 2.5em; color: #fcddb6 "><i class="far fa-list-alt"></i>
-                    </span></button>
+            <div class="input-group col-10 form-group">
+                <textarea id=textarea9AM class="form-control custom-control textborder" rows="2" name="9"></textarea>
+                <button class="col-1 btn"> <span style="font-size: 2.5em; color: navy "><i class="far fa-list-alt"></i></span></button>
             </div>
         </div>
         <div class="row row10">
           <div class="input-container input-group col-1">
               <p class="border-bottom">10am</p>
           </div>
-          <div class="input-group  col-10 form-group">
-              <textarea id=textarea9AM class="form-control custom-control textborder" rows="2" style="resize:none"
-                  name="10"></textarea>
-              <button class="col-1 btn"> <span style="font-size: 2.5em; color: #fcddb6 "><i class="far fa-list-alt"></i>
-                  </span></button>
+          <div class="input-group col-10 form-group">
+              <textarea id=textarea10AM class="form-control custom-control textborder" rows="2"name="10"></textarea>
+              <button class="col-1 btn"> <span style="font-size: 2.5em; color: navy "><i class="far fa-list-alt"></i></span></button>
           </div>
+        </div>
+        <div class="row row11">
+          <div class="input-container input-group col-1">
+              <p class="border-bottom">11am</p>
+          </div>
+          <div class="input-group col-10 form-group">
+              <textarea id=textarea11AM class="form-control custom-control textborder" rows="2"name="11"></textarea>
+              <button class="col-1 btn"> <span style="font-size: 2.5em; color: navy "><i class="far fa-list-alt"></i></span></button>
+          </div>
+        </div>
+        <div class="row row12">
+          <div class="input-container input-group col-1">
+              <p class="border-bottom">12pm</p>
+          </div>
+          <div class="input-group col-10 form-group">
+              <textarea id=textarea12PM class="form-control custom-control textborder" rows="2"name="12"></textarea>
+              <button class="col-1 btn"> <span style="font-size: 2.5em; color: navy "><i class="far fa-list-alt"></i></span></button>
+          </div>
+        </div>
+        <div class="row row1">
+          <div class="input-container input-group col-1">
+              <p class="border-bottom">1pm</p>
+          </div>
+          <div class="input-group col-10 form-group">
+              <textarea id=textarea1PM class="form-control custom-control textborder" rows="2"name="13"></textarea>
+              <button class="col-1 btn"> <span style="font-size: 2.5em; color: navy "><i class="far fa-list-alt"></i></span></button>
+          </div>
+        </div>
+        <div class="row row2">
+          <div class="input-container input-group col-1">
+              <p class="border-bottom">2pm</p>
+          </div>
+          <div class="input-group col-10 form-group">
+              <textarea id=textarea2PM class="form-control custom-control textborder" rows="2"name="14"></textarea>
+              <button class="col-1 btn"> <span style="font-size: 2.5em; color: navy "><i class="far fa-list-alt"></i></span></button>
+          </div>
+        </div>
+        <div class="row row3">
+          <div class="input-container input-group col-1">
+              <p class="border-bottom">3pm</p>
+          </div>
+          <div class="input-group col-10 form-group">
+              <textarea id=textarea3PM class="form-control custom-control textborder" rows="2"name="15"></textarea>
+              <button class="col-1 btn"> <span style="font-size: 2.5em; color: navy "><i class="far fa-list-alt"></i></span></button>
+          </div>
+        </div>
+        <div class="row row4">
+          <div class="input-container input-group col-1">
+              <p class="border-bottom">4pm</p>
+          </div>
+          <div class="input-group col-10 form-group">
+              <textarea id=textarea4PM class="form-control custom-control textborder" rows="2"name="16"></textarea>
+              <button class="col-1 btn"> <span style="font-size: 2.5em; color: navy "><i class="far fa-list-alt"></i></span></button>
+          </div>
+        </div>
+        <div class="row row5">
+          <div class="input-container input-group col-1">
+              <p class="border-bottom">5pm</p>
+          </div>
+          <div class="input-group col-10 form-group">
+              <textarea id=textarea5PM class="form-control custom-control textborder" rows="2"name="17"></textarea>
+              <button class="col-1 btn"> <span style="font-size: 2.5em; color: navy "><i class="far fa-list-alt"></i></span></button>
+          </div>
+        </div>
       </div>
-    </div>
 
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/moment.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
